@@ -1,14 +1,60 @@
+# Solana Native Counter dApp
 
-// job of libaray is to export the function which can be used by the binary 
+A full-stack Solana dApp built using native Solana programs in Rust, React frontend, and Solana Web3.js.
 
-two external libary needed 
-solana-program   
-borsh (serialization and deserialization )
+This project demonstrates:
 
+- On-chain state management
+- Wallet interaction
+- Solana account creation
+- Transaction handling
+- Native Solana development without Anchor
 
-cargo build-sbf
+---
 
-program id 3tPhbV1Wv8ttcs8fdoYXatHacxt5p8gXhNNbhqkPgLGW 
+# 🚀 Features
 
-Signature: 4WKQ8bSkKrGNj5aC9HX9k29d6BrjAWR8QZHXBGEMqzQJ3b3WKFnJwuQ5Kj6G1fs2KF5VzDQ5GxKgqpk91YKdH6xe
+- Connect Phantom Wallet
+- Create On-Chain Counter Accounts
+- Increment Counter
+- Decrement Counter
+- Fetch Counter State from Blockchain
+- React + Web3.js Frontend
+- Native Solana Program (No Anchor)
+- Devnet Deployment
 
+---
+
+# 🛠️ Tech Stack
+
+## Blockchain / Smart Contract
+
+- Rust
+- Solana Native Programs
+- Borsh Serialization
+
+## Frontend
+
+- React
+- Vite
+- Solana Web3.js
+
+## Wallet
+
+- Phantom Wallet
+
+---
+
+# 📚 Solana Architecture
+
+```text
+Frontend (React)
+       ↓
+Web3.js Transactions
+       ↓
+Solana Runtime
+       ↓
+Native Rust Program
+       ↓
+Counter Accounts (On-Chain State)
+```
